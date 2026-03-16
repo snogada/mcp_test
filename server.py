@@ -22,5 +22,4 @@ def get_equipment_status(equipment_name: str) -> str:
 
 if __name__ == "__main__":
     # 서버 실행 (표준 입출력을 통해 호스트와 통신)
-    print("MCP Equipment & AI Server가 시작되었습니다. (이 메시지는 디버그용이며, MCP는 stdio를 사용합니다)", flush=True)
     mcp.run()
